@@ -14,7 +14,7 @@ const projects = [
     {
     title: "Ladder to ADMIN! 👑",
     description: "Designed GUI, and scripted all functionality with in the game.",
-    image: "assets/images/skill-tree.png",
+    image: "Images/LTA.png",
     link: "https://github.com/yourusername/roblox-skill-tree"
   },
   
