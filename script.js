@@ -15,7 +15,7 @@ const projects = [
   },
     {
     title: "Ladder to ADMIN! 👑",
-    description: "Designed GUI, and scripted all functionality with in the game.",
+    description: "Responsible for the complete UI design and scripting of core gameplay functionality.",
     image: "assets/images/LTA.png",
     link: "https://www.roblox.com/games/75696940007617/Ladder-to-ADMIN",
     linkName: "View On Roblox"
