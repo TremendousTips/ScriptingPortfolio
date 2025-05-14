@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Skill Tree UI",
     description: "Dynamic GUI that handles skill dependencies and animations using TweenService.",
-    image: "assets/images/LTA.png",
+    image: "assets/images/UT.png",
     link: "https://github.com/yourusername/roblox-skill-tree"
   },
     {
