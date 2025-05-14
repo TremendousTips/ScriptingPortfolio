@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Pet Follow System",
     description: "Little NPCs that follow players and avoid collisions using PathfindingService.",
-    image: "assets/images/LTA.png",
+    image: "assets/images/PFS.png",
     link: "https://github.com/yourusername/roblox-pet-system"
   },
   {
