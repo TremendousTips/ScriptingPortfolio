@@ -4,14 +4,14 @@ const projects = [
     description: "Pets that follow players and avoid collisions using PathfindingService in a simmilar fashion to pet simulator.",
     image: "assets/images/PFS.png",
     link: "https://github.com/yourusername/roblox-pet-system",
-    linkName: "View On Roblox"
+    linkName: "Private"
   },
   {
     title: "Skill Tree UI",
     description: "Dynamic GUI that handles skill dependencies and animations using TweenService.",
     image: "assets/images/UT.png",
     link: "https://github.com/yourusername/roblox-skill-tree",
-    linkName: "View On Roblox"
+    linkName: "Private"
   },
     {
     title: "Ladder to ADMIN! 👑",
