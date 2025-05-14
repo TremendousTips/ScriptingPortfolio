@@ -2,20 +2,20 @@ const projects = [
   {
     title: "Pet Follow System",
     description: "Little NPCs that follow players and avoid collisions using PathfindingService.",
-    image: "assets/images/pet-follow.png",
+    image: "assets/images/LTA.png",
     link: "https://github.com/yourusername/roblox-pet-system"
   },
   {
     title: "Skill Tree UI",
     description: "Dynamic GUI that handles skill dependencies and animations using TweenService.",
-    image: "assets/images/skill-tree.png",
+    image: "assets/images/LTA.png",
     link: "https://github.com/yourusername/roblox-skill-tree"
   },
     {
     title: "Ladder to ADMIN! 👑",
     description: "Designed GUI, and scripted all functionality with in the game.",
     image: "assets/images/LTA.png",
-    link: "https://github.com/yourusername/roblox-skill-tree"
+    link: ""
   },
   
 ];
