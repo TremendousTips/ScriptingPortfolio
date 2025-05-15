@@ -1,13 +1,13 @@
 const projects = [
   {
-    title: "Pet Follow System",
+    title: "Pet Follow System 🐱",
     description: "Pets that follow players and avoid collisions using PathfindingService in a simmilar fashion to pet simulator.",
     image: "assets/images/PFS.png",
     link: "https://github.com/yourusername/roblox-pet-system",
     linkName: "Private"
   },
   {
-    title: "Skill Tree UI",
+    title: "Skill Tree UI 🤹‍♂️",
     description: "Dynamic GUI that handles skill dependencies and animations using TweenService.",
     image: "assets/images/UT.png",
     link: "https://github.com/yourusername/roblox-skill-tree",
@@ -19,6 +19,13 @@ const projects = [
     image: "assets/images/LTA.png",
     link: "https://www.roblox.com/games/75696940007617/Ladder-to-ADMIN",
     linkName: "View On Roblox"
+  },
+    {
+    title: "Egg Hatch System 🥚",
+    description: "The egg hatching system can hatch multiple eggs at a time, doesn't use viewportFrames.",
+    image: "assets/images/UT.png",
+    link: "https://github.com/yourusername/roblox-skill-tree",
+    linkName: "Private"
   },
   
 ];
