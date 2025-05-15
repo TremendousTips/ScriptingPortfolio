@@ -24,8 +24,8 @@ const projects = [
     title: "Egg Hatch System 🥚",
     description: "The egg hatching system can hatch multiple eggs at a time, doesn't use viewportFrames.",
     image: "assets/images/EHS.png",
-    link: "https://github.com/yourusername/roblox-skill-tree",
-    linkName: "Private"
+    link: "https://www.roblox.com/games/77610535821759/Egg",
+    linkName: "View On Roblox"
   },
   
 ];
