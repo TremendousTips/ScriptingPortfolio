@@ -33,8 +33,8 @@ const projects = [
   },
 ];
 
-
-const container = document.getElementById('portfolio');
+const gamesContainer = document.getElementById('games');
+const systemsContainer = document.getElementById('systems');
 
 projects.forEach(project => {
   const card = document.createElement('div');
@@ -44,8 +44,13 @@ projects.forEach(project => {
     <div class="card-content">
       <h2>${project.title}</h2>
       <p>${project.description}</p>
-      <a href="${project.link}" target="_blank" style="color: #00ffd5;">${project.linkName}</a>
+      <a href="${project.link}" target="_blank">${project.linkName}</a>
     </div>
   `;
-  container.appendChild(card);
+
+  if (project.type === "Game") {
+    gamesContainer.appendChild(card);
+  } else if (project.type === "System") {
+    systemsContainer.appendChild(card);
+  }
 });
