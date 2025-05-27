@@ -26,7 +26,7 @@ const projects = [
   {
     title: "[🍓] strawberry shortcake tower 🍰",
     description: "Brought into the project late in development to help fix bugs. 🐛",
-    image: "assets/images/LTA.png",
+    image: "assets/images/SSC.png",
     link: "https://www.roblox.com/games/70615821611588/strawberry-shortcake-tower",
     linkName: "View On Roblox",
     type: "Game"
