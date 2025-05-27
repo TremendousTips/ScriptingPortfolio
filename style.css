@@ -36,14 +36,15 @@ h2 {
   background: #1a1a1a;
   border-radius: 12px;
   width: 300px;
-  box-shadow: 0 4px 15px rgba(0, 255, 213, 0.2);
   overflow: hidden;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
   transform: scale(1.03);
+  box-shadow: 0 4px 15px rgba(0, 255, 213, 0.5);
 }
+
 
 .card img {
   width: 100%;
