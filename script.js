@@ -24,6 +24,14 @@ const projects = [
     type: "Game"
   },
   {
+    title: "[🍓] strawberry shortcake tower 🍰",
+    description: "Brought into the project late in development to help fix bugs. 🐛",
+    image: "assets/images/LTA.png",
+    link: "https://www.roblox.com/games/70615821611588/strawberry-shortcake-tower",
+    linkName: "View On Roblox",
+    type: "Game"
+  },
+  {
     title: "Egg Hatch System 🥚",
     description: "The egg hatching system can hatch multiple eggs at a time, doesn't use viewportFrames.",
     image: "assets/images/EHS.png",
