@@ -1,14 +1,62 @@
-<main class="container">
-  <h1>Shop</h1>
-  <div class="grid">
-    <!-- Example: Icon Pack Product -->
-    <div class="card">
-      <img src="assets/images/product1.jpg" alt="Icon Pack 1" />
-      <div class="caption">
-        Icon Pack 1<br/>
-        <strong>$9.99</strong>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GVesster – Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo"> <img src="logo.png" alt="logo" /> </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="shop.html">Shop</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="#">Prices & Terms</a>
+      <a href="#">Blogs</a>
+    </nav>
+    <a class="cta" href="#">Contact Me!</a>
+  </header>
+
+  <main class="main">
+    <section class="portfolio-section">
+      <h1>Shop Products</h1>
+      <div class="card-grid">
+        <a href="https://yourstore.com/product1" class="card" target="_blank">
+          <img src="assets/images/product1.png" alt="Product 1" />
+          <h2>Icon Pack A</h2>
+          <p>$5 – Set of hand-crafted icons</p>
+        </a>
+        <a href="https://yourstore.com/product2" class="card" target="_blank">
+          <img src="assets/images/product2.png" alt="Product 2" />
+          <h2>Stream Overlay</h2>
+          <p>$10 – Twitch/YouTube ready overlay</p>
+        </a>
+        <a href="https://yourstore.com/product3" class="card" target="_blank">
+          <img src="assets/images/product3.png" alt="Product 3" />
+          <h2>Commission Slot</h2>
+          <p>$20 – Reserve a custom piece</p>
+        </a>
       </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-col">
+      <h4>Main</h4>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="#">Prices & Terms</a>
+      <a href="#">Blogs</a>
     </div>
-    <!-- Repeat for each product -->
-  </div>
-</main>
+    <div class="footer-col">
+      <h4>Social</h4>
+      <a href="#">X</a>
+      <a href="#">Discord Server</a>
+      <a href="#">BlueSky</a>
+    </div>
+  </footer>
+</body>
+</html>
