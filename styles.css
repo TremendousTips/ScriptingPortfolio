@@ -1,155 +1,106 @@
-/* Reset + base font */
+:root {
+  --bg: #f4f4f4;
+  --text: #1a1a1a;
+  --subtle: #777;
+  --accent: #444;
+  --card-bg: #fff;
+  --radius: 12px;
+  --shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  transition: all 0.3s ease;
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #eef3fb;
-  color: #0b0b32;
+  background-color: var(--bg);
+  font-family: "Inter", sans-serif;
+  color: var(--text);
   line-height: 1.6;
+  padding: 40px 20px;
 }
 
-/* Header */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #eef3fb;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.logo img {
-  height: 50px;
-  transition: transform 0.3s ease;
-}
-.logo img:hover {
-  transform: scale(1.1);
-}
-
-.nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #0b0b32;
-  font-weight: 500;
-  position: relative;
-}
-.nav a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -3px;
-  width: 100%;
-  height: 2px;
-  background: #0b0b32;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-  transform-origin: right;
-}
-.nav a:hover::after,
-.nav a.active::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-
-.cta {
-  background-color: #0b0b32;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-.cta:hover {
-  background-color: #2a2a66;
-}
-
-/* Main error content */
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem 1rem;
-  min-height: 70vh;
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
   text-align: center;
-  animation: fadeIn 0.8s ease;
 }
 
-.oops-icon {
-  width: 100px;
-  margin-bottom: 1rem;
-  animation: popIn 0.5s ease;
+section {
+  max-width: 1200px;
+  margin: 0 auto 80px;
 }
 
-.main h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+h2.section-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+  padding-bottom: 4px;
 }
 
-.main p {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
-  color: #444;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
 }
 
-.button {
-  background-color: #0b0b32;
-  color: white;
-  padding: 0.7rem 1.5rem;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-}
-.button:hover {
-  background-color: #2a2a66;
-}
-
-/* Footer */
-.footer {
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;
-  justify-content: space-between;
-  background-color: #eef3fb;
-  padding: 2rem;
-  flex-wrap: wrap;
-  gap: 2rem;
-  border-top: 1px solid #ccc;
+  flex-direction: column;
 }
 
-.footer-col {
-  flex: 1 1 200px;
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
 }
 
-.footer-col h4 {
-  margin-bottom: 1rem;
-  color: #888;
-  font-size: 0.9rem;
-}
-
-.footer-col a {
+.card img {
+  width: 100%;
+  height: auto;
   display: block;
-  color: #0b0b32;
-  margin-bottom: 0.5rem;
+}
+
+.card-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-content h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  flex-grow: 1;
+  color: var(--subtle);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.card-content a {
   text-decoration: none;
-  font-size: 0.95rem;
-}
-.footer-col a:hover {
-  text-decoration: underline;
-}
-
-/* Animations */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  color: white;
+  background-color: #1a1a1a;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+  transition: background 0.2s ease;
 }
 
-@keyframes popIn {
-  from { transform: scale(0.8); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
+.card-content a:hover {
+  background-color: #333;
 }
