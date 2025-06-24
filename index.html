@@ -2,25 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tremendous – Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TremendousTips – Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
+  <header class="header">
+    <div class="logo"> <img src="logo.png" alt="logo" /> </div>
     <nav class="nav">
       <a href="index.html">Home</a>
-      <a href="portfolio.html">Portfolio</a>
       <a href="shop.html">Shop</a>
+      <a class="active" href="portfolio.html">Portfolio</a>
+      <a href="#">Prices & Terms</a>
+      <a href="#">Blogs</a>
     </nav>
+    <a class="cta" href="#">Contact Me!</a>
   </header>
-  
-  <main class="container">
-    <!-- Page‑specific grid here -->
+
+  <main class="main">
+    <div class="center-content">
+      <img src="error-icon.png" alt="Oops Icon" class="oops-icon" />
+      <h1>Oops, something's wrong</h1>
+      <p>This site is under development, so some content is not yet available <span>🥲</span><br>But you can find all the info in my socials</p>
+      <a class="button" href="index.html">Return to Home</a>
+    </div>
   </main>
-  
-  <footer>
-    <p>© 2025 Tremendous Tips</p>
+
+  <footer class="footer">
+    <div class="footer-col">
+      <h4>Main</h4>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="#">Prices & Terms</a>
+      <a href="#">Blogs</a>
+    </div>
+    <div class="footer-col">
+      <h4>Social</h4>
+      <a href="#">X</a>
+      <a href="#">Discord Server</a>
+      <a href="#">BlueSky</a>
+    </div>
   </footer>
 </body>
 </html>
